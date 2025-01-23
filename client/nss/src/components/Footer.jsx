@@ -40,7 +40,7 @@ const Footer = () => {
         <div class="location-head">
             <h2><i class="fa fa-map-marker" aria-hidden="true"></i>Location </h2>
         <div class="majorobj">
-            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.799864273715!2d78.03380177555619!3d15.761723184874135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb5dc3bfcf99645%3A0x52358ddcfb659cb9!2sIndian%20Institute%20Of%20Information%20Technology%2C%20Design%20%26%20Manufacturing%2C%20Kurnool!5e0!3m2!1sen!2sin!4v1695542145374!5m2!1sen!2sin"  style={{border:'none'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.799864273715!2d78.03380177555619!3d15.761723184874135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb5dc3bfcf99645%3A0x52358ddcfb659cb9!2sIndian%20Institute%20Of%20Information%20Technology%2C%20Design%20%26%20Manufacturing%2C%20Kurnool!5e0!3m2!1sen!2sin!4v1695542145374!5m2!1sen!2sin"  style={{border:'none'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         
     </div>
