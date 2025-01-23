@@ -61,8 +61,10 @@
     }
 
     #moto {
-        position: relative;
-        top: 7vw;
+        position: absolute;
+        height: 8vw;
+        top: 8vw;
+        font-weight: 600;
         /* left: 50vw; */
         margin: 1px;
         letter-spacing: 3px;
@@ -71,6 +73,7 @@
         color: #ff9d00;
         font-weight: 700;
         animation-name: typing1;
+        display: none;
     }
     @keyframes typing1 {
         from { width: 0 }
@@ -494,7 +497,7 @@
     width: 90vw;
     height: auto;
     min-height: 100vw;
-    margin-top: 30vw;
+    margin-top: 25vw;
     margin-bottom: -25vw;
     position: relative;
 }
@@ -615,21 +618,25 @@
         font-size: 2.5vw;
         width: fit-content;
     }
-    #selbtn12{
-        font-size: 1.5vw;
+    #selbtn12 {
+        font-size: 2.1vw;
         width: fit-content;
     }
     .piccont-upeve{
-        height: 40vw;
+        height: auto;
+        flex-direction: column;
     }
     .pic_container{
-        height: 38vw;
+        height: 50vw;
+        width: 100%;
+        margin: 10px;
     }
+  
     .sneak-peak-layer{
-        height: 38vw;
+        height: 50vw;
     }
     .sneak-peak{
-        height: 38vw;
+        height: 50vw;
     }
     .nav-next-prev{
         width: 3.5vw;
@@ -639,14 +646,18 @@
         font-size: 2vw;
     }
     #nav-next_sneak{
-        left: 52vw;
+        left: 93vw;
+    }
+    .upeveloading{
+        width: 100%;
+        height: 50vw;
     }
     .eventscroll{
         position: relative;
         /* top: 35vw; */
         right: 0vw;
-        width: 39.5%;
-        height: 38vw;
+        width: 100%;
+        height: auto;
         background-color: #fff;
       
         overflow-y: scroll;
@@ -654,25 +665,36 @@
         box-shadow: 0 0 1vw;
     }
     .eventscroll h4{
-        font-size: 3.5vw;
+        font-size: 4.5vw;
+        position: relative;
+        left: 0;
+        box-sizing: border-box;
+        padding-left: 10px;
     }
     #eventscroll1{
-        top: 7.5vw;
+        top: 0vw;
+        width: 98%;
+        position: relative;
+        height: auto;
     }
     .events{
-        font-size: 2vw;
+        font-size: 2.5vw;
         height: 4.5vw;
+        width: 98%;
+        position: relative;
+        height: auto;
+        min-height: 7vw;
     }
     .eventscroll::-webkit-scrollbar{
         display: none;
     }
     .up-event-des{
-        height: 60vw;
+        height: auto;
     }
     .event-des{
         top: 5vw;
-        width: 60vw;
-        height: 25vw;
+        width: 100%;
+        height: auto;
     }
     .event-des::-webkit-scrollbar{
         width: 1vw;
@@ -686,9 +708,9 @@
         font-size: 2.5vw;
     }
     .des-img{
-        width: 60vw;
-        height: 30vw;
-        left: 5vw;
+        width: 100%;
+        height: 50vw;
+        left: 0vw;
         top: 5vw;
     }
     #close1{
@@ -700,6 +722,7 @@
 
     .about{
         height: 40vw;
+        top: 0vw;
     }
     .abouthead{
         top: 15vw;
@@ -723,6 +746,7 @@
     }
     .testimonials{
         height: 70vw;
+        border-radius: 0;
     }
     .test-slides{
         height: 70vw;

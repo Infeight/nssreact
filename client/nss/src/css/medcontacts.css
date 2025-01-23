@@ -106,7 +106,7 @@
     }
     
     
-    #moto{
+    /* #moto{
         width: 50%;
         position: relative;
         margin: 1px;
@@ -122,16 +122,16 @@
         color: #f9a000;
         font-size: 3.2vw;
         transition-duration: 0.2s;
-    }
+    } */
     .clgheading p {
-        width: 90%;
+        width: 100%;
         margin: 1px;
         letter-spacing: 3px;
         font-size: 8vw;
         font-family: "Kanit", sans-serif;
         font-weight: 600;
-        /* font-style: italic; */
-        color: #fff;
+        /* font-style: italic;
+        color: #fff; */
     }
     #options {
         position: sticky;

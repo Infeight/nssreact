@@ -75,10 +75,9 @@ z-index: 0;
 #clgheading{
     top: 10vw;
     position: sticky;
-    left: 5vw;
-    width: 100%;
-    display: flex
-;
+    left: 4vw;
+    width: 92%;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -92,19 +91,17 @@ z-index: 0;
 #moto{
     overflow: hidden;
     width: 35%;
-    position: relative;
+    position: absolute;
     margin: 1px;
     letter-spacing: 0.15em;
-    /* font-size: 3vw; */
     font-family: monospace;
     color: #f9a000;
      font-weight: 600;
-    /* transition-duration: 0.2s; */
     border-right: 0.15em solid orange;
     animation: 
     typing 16s steps(40, end) infinite,
     blink-caret 0.85s step-end infinite;
-
+  display: block;
 }
 #moto:hover{
     color: #f9a000;

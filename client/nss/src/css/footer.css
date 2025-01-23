@@ -198,17 +198,17 @@ li a:hover{
 
     footer{
         position: relative;
-    height: 120vh;
+    height: auto;
     z-index: 2;
     top: 35vw;
     display: flex;
     flex-direction: column;
-
+   margin-top: 25vw;
     }
         .foot {
             position: relative;
     
-            top: 20vw;
+            top: 0vw;
             height: 100%;
     
         }
@@ -333,9 +333,12 @@ li a:hover{
     font-size: 3.2vw;
     color: white;
     position: relative;
-    top: 10vw;
-    left: 0vw;
-    height: 10vw;
+    top: 0vw;
+    background-color: black;
+    left: 0;
+    height: 15vw;
+    box-sizing: border-box;
+    padding-top: 4vw;
    
 }
 
@@ -348,7 +351,7 @@ li a:hover{
         footer{
             display: flex;
             flex-direction: column;
-            top: 30vw;
+            top: 20vw;
             height: 35vh;
         }
 .foot{

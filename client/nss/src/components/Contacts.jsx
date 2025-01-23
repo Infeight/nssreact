@@ -92,7 +92,7 @@ const sendEmail = (e) => {
        
             <div class="clgheading">
                 <p>NSS IIITDM KURNOOL</p>
-                 <pre id="moto"></pre>
+                 {/* <pre id="moto"></pre> */}
              </div>
         
         <div class="clgpic">

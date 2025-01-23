@@ -45,7 +45,7 @@ body::-webkit-scrollbar{
 
 #moto{
     width: 50%;
-    position: relative;
+    position: absolute;
     margin: 1px;
     letter-spacing: 9px;
     font-size: 3vw;
@@ -60,17 +60,17 @@ body::-webkit-scrollbar{
     font-size: 3.2vw;
     transition-duration: 0.2s;
 }
-.clgheading p{
+/* .clgheading p{
     width: 100%;
     margin: 1px;
     letter-spacing: 10px;
-    /* font-size: 6vw; */
+    font-size: 6vw;
     font-family: "Kanit", sans-serif;
     font-weight: 600;
-    /* font-style: italic;   */
-     /* color: #868686; */
+    font-style: italic;  
+     color: #868686;
     
-}
+} */
 
 
 /* .clgpic img{

@@ -107,7 +107,7 @@ const Members = () => {
         <div class="events-layer"></div>
         <div class="clgheading">
             <p>NSS IIITDM KURNOOL</p>
-             <pre id="moto"></pre>
+             {/* <pre id="moto"></pre> */}
          </div>
         <div class="clgpic">
         <iframe src="https://lottie.host/embed/2d52f598-b26f-4bd3-ad8a-540324926bb8/o16BSkSf9c.lottie"></iframe>
