@@ -42,7 +42,7 @@ const Home = () => {
           
         })
 
-        setSneaks(base64strings);
+        // setSneaks(base64strings);
     }
     let i=0;
     setInterval(()=>{
@@ -178,15 +178,26 @@ const handledate=(e)=>{
       
            <div class="sneak-peak-layer">Sneak peaks</div>
         
-      
-             <img className="sneak-peak" id="sneakimg"
-             src= {sneaks.length!=0?`data:image/png;base64,${sneaks[Math.floor(Math.random()* sneaks.length-1)]}`:'imagesloading.avif'}
+            {
+                sneaks.length!=0?
+               
+                    <img className="sneak-peak" id="sneakimg"
+             src= {`data:image/png;base64,${sneaks[Math.floor(Math.random()* sneaks.length-1)]}`}
              alt="College front gate"/>
+                
+                :
+            
+                <iframe src="https://lottie.host/embed/526cee35-8bfc-4c6c-8ffe-7221dfd3aa25/VPafcAyK01.lottie"></iframe>
+            }
+      
+             {/* <img className="sneak-peak" id="sneakimg"
+             src= {sneaks.length!=0?`data:image/png;base64,${sneaks[Math.floor(Math.random()* sneaks.length-1)]}`:'imagesloading.avif'}
+             alt="College front gate"/> */}
          
              
        <button id="gotoeve" > Go To Events</button>   
-       <button onClick={nextslide_sneak} id="nav-next_sneak"  class="nav-next-prev"><MdNavigateNext style={{fontSize:'1.5vw'}}/></button>
-       <button onClick={prevslide_sneak} id="nav-prev_sneak"  class="nav-next-prev"><GrFormPrevious  style={{fontSize:'1.5vw'}}/> </button>
+       <button onClick={nextslide_sneak} id="nav-next_sneak"  class="nav-next-prev"><MdNavigateNext /></button>
+       <button onClick={prevslide_sneak} id="nav-prev_sneak"  class="nav-next-prev"><GrFormPrevious /> </button>
    </div>
 
 

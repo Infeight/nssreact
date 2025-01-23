@@ -21,6 +21,7 @@ const Header = (props) => {
     <>
     <button id="options" value="close" onClick={options}><IoMdOptions style={{fontSize:'6.5vw'}} /></button>
        <div class="header" id="header">
+       <iframe src="https://lottie.host/embed/ee9cd7c8-1a25-4a38-8d1c-51943428eb4b/O1uJsw0EvX.lottie"></iframe>
         <nav>
             <ul>
                 {/* <!-- <img id="nss-head-logo" class="head-logo" src="/images/nss image log.png" alt=""> --> */}

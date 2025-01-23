@@ -22,7 +22,7 @@ body{
     box-shadow:0 -10px 15px black;
     z-index: 10;
 }
-
+.header iframe{display: none;}
 .header ul {
     
     display: flex;
@@ -84,7 +84,7 @@ body{
         left: 1vw;
         top: 52vw;
         align-content: flex-start;
-        justify-content: center;
+        justify-content: space-evenly;
         z-index: 4;
         border-radius: 10px;
         box-shadow: 0px 0px 15px black;
@@ -95,6 +95,18 @@ body{
     @keyframes header {
      from{top: -50vw;}
      to{top: 52vw;}
+    }
+    .header iframe{
+        display: block;
+        border: none;
+        width: 95%;
+        height: 30%;
+        top: -5vw;
+        position: relative;
+    }
+    .header nav{
+        position: relative;
+        top: -26vw;
     }
     .header ul {
         /* backdrop-filter: blur(10px); */

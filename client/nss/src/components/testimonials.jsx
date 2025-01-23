@@ -59,8 +59,8 @@ const Testimonials = () => {
         
 
 
-    <button onClick={nextslide} id="nav-next" class="nav-next-prev"><MdNavigateNext style={{fontSize:'1.5vw'}}/></button>
-    <button onClick={prevslide} id="nav-prev"  class="nav-next-prev"><GrFormPrevious  style={{fontSize:'1.5vw'}}/> </button>
+    <button onClick={nextslide} id="nav-next" class="nav-next-prev"><MdNavigateNext /></button>
+    <button onClick={prevslide} id="nav-prev"  class="nav-next-prev"><GrFormPrevious /> </button>
 </div>
 
   )
