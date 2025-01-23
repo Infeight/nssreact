@@ -13,7 +13,7 @@ const Events = () => {
     },[])
 
     const events = async()=>{
-        const data = await fetch('https://nss-server-zeta.vercel.app/events',{headers:{accept:'application/json'}})
+        const data = await fetch('https://nssreactserver.onrender.com/events',{headers:{accept:'application/json'}})
 
         const data1 =await data.json();
         

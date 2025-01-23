@@ -23,7 +23,7 @@ const Home = () => {
     },[])
 
     const sneakpeaks = async()=>{
-        const sneak = await fetch('https://nss-server-zeta.vercel.app/sneakpeaks',{headers:{accept:'application/json'}})
+        const sneak = await fetch('https://nssreactserver.onrender.com/sneakpeaks',{headers:{accept:'application/json'}})
 
         const sneak1 =await sneak.json();
       
@@ -74,7 +74,7 @@ const Home = () => {
     }
 
    const upeve = async()=>{
-    const data = await fetch('https://nss-server-zeta.vercel.app/upevents',{headers:{accept:'application/json'}})
+    const data = await fetch('https://nssreactserver.onrender.com/upevents',{headers:{accept:'application/json'}})
 
     const data1 =await data.json();
     
@@ -82,7 +82,7 @@ const Home = () => {
    }
 
    const exps = async()=>{
-    const exps = await fetch('https://nss-server-zeta.vercel.app/experience',{headers:{accept:'application/json'}})
+    const exps = await fetch('https://nssreactserver.onrender.com/experience',{headers:{accept:'application/json'}})
 
     const exps1 =await exps.json();
     
@@ -107,7 +107,7 @@ const Home = () => {
         Exp:document.getElementById("exp-matter").value?document.getElementById("exp-matter").value: 'If you are into service, You are at the correct site.'
     }
 
- await fetch ("https://nss-server-zeta.vercel.app/experience",{method:"post", headers: { "Content-Type": "application/json" }, body: JSON.stringify(exp)})
+ await fetch ("https://nssreactserver.onrender.com/experience",{method:"post", headers: { "Content-Type": "application/json" }, body: JSON.stringify(exp)})
  .then().then( window.location.reload())
   }
   else{
