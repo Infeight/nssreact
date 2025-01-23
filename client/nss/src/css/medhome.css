@@ -102,12 +102,14 @@
     position: relative;
     /* top: 30vw; */
     margin: auto;
-    height:150vw;
+    height:auto;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column-reverse;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 
@@ -121,7 +123,8 @@
         z-index: 0;
         overflow: hidden;
         box-shadow: 0.8px 0.7px 6.7px hsl(0deg 0% 0% / 0.44);
-        
+        margin-top: 10px;
+        box-sizing: border-box;
     }
     .sneak-peak {
         position: absolute;
@@ -198,7 +201,7 @@
         /* top: 85vw; */
         right: 0vw;
         width: 98vw;
-        height: 84vw;
+        height: auto;
         background-color: #fff;
         border-radius: 5px;
         overflow-y: scroll;
@@ -211,47 +214,49 @@
     .eventscroll h4 {
         margin: 2px;
         font-size: 7.5vw;
-        position: absolute;
+        position: relative;
         top: 0vw;
         left: 1vw;
         font-family: 'Poppins', sans-serif;
     }
     .events {
+        position: relative;
         width: 98%;
         margin: 5px 1%;
         background-color: #ffbf58;
         font-family: "Kanit", sans-serif;
-        height: 10vw;
+        height: auto;
+        min-height: 12vw;
         border-radius: 6px;
         z-index: 2;
-        font-size: 4vw;
+        font-size: 4.5vw;
         font-weight: 400;
     }
     .up-event-des {
         display: none;
-        position: fixed;
+        position: relative;
         top: 25%;
-        left: 1vw;
-        width: 98vw;
-        height: 140vw;
+        left: 0vw;
+        width: 100%;
+        height: auto;
         background-color: #fff;
         border-radius: 10px;
         z-index: 4;
         font-size: 1vw;
         font-family: 'Poppins', sans-serif;
-        box-shadow: 0.8px 0.7px 6.7px hsl(0deg 0% 0% / 0.44);
+        /* box-shadow: 0.8px 0.7px 6.7px hsl(0deg 0% 0% / 0.44); */
     }
     .upeveloading {
-        width: 100vw;
-        height: 75vw;
+        width: 100%;
+        height: 65vw;
     }
     .des-img {
         position: relative;
         border: 2px solid white;
-        top: 8vw;
-        width: 94vw;
+        top: 0vw;
+        width: 100%;
         height: 65vw;
-        left: 2vw;
+        left: 0vw;
         border-radius: 10px;
         box-shadow: none;
         box-sizing: border-box;
@@ -265,10 +270,10 @@
     font-size: 4vw;
     position: relative;
     box-shadow:none;
-    top: 8vw;
-    width:92vw;
-    height: 65vw;
-    left: 1.5vw;
+    top: 0vw;
+    width: 100%;
+    height: auto;
+    left: 0vw;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     overflow: scroll;
@@ -289,8 +294,8 @@
     #eventscroll1 {
         display: flex;
         flex-direction: column;
-        position: absolute;
-        top: 12.5vw;
+        position: relative;
+        top: 0vw;
         left: 0vw;
         width: 98vw;
     }
@@ -380,6 +385,7 @@
         background-color: #fff;
         border-radius: 0px;
         overflow: hidden;
+        margin: 6vw 0;
     }
     .testimonials h3{
         margin-top: 0;
@@ -488,7 +494,7 @@
     width: 90vw;
     height: auto;
     min-height: 100vw;
-    margin-top: 25vw;
+    margin-top: 30vw;
     margin-bottom: -25vw;
     position: relative;
 }
@@ -508,6 +514,11 @@
 }
 .sugg-display{
     height: 85vw;
+}
+.sugg-display iframe{
+    width: 100%;
+    height: 98%;
+    border: none;
 }
 .sharehead-cont{
     height: 14vw;

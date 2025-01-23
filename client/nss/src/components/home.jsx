@@ -42,7 +42,7 @@ const Home = () => {
           
         })
 
-        // setSneaks(base64strings);
+        setSneaks(base64strings);
     }
     let i=0;
     setInterval(()=>{
@@ -140,16 +140,24 @@ const handledate=(e)=>{
 
 
    const openevent =(e)=>{
-       document.getElementById('up-event-des').style.display = 'block';
-       document.getElementById('event-matter').innerText = e.target.querySelector('.eventmatter').innerText
-       document.getElementById('des-img').src = `data:image/png;base64,${e.target.querySelector('.image').innerText}`
+    if(e.target.value == 'close'){
+       e.target.style.backgroundColor = 'white'
+       e.target.querySelector('#up-event-des').style.display = 'block';
+       e.target.querySelector('#event-matter').innerText = e.target.querySelector('.eventmatter').innerText
+       e.target.querySelector('#des-img').src = `data:image/png;base64,${e.target.querySelector('.image').innerText}`
+       e.target.value ='open'
    }
-
-   const close = ()=>{
-    document.getElementById('up-event-des').style.display = 'none';
+   else{
+    e.target.querySelector('#up-event-des').style.display = 'none';
+     e.target.style.backgroundColor = '#ffbf58'
+       e.target.value ='close'
    }
-
-
+   }
+      const close = (e)=>{
+    e.target.closest('#up-event-des').style.display = 'none';
+    e.target.closest('.events').style.backgroundColor = '#ffbf58'
+    e.target.closest('.events').value = 'close'
+   }
 
   return (
     <>
@@ -217,7 +225,7 @@ const handledate=(e)=>{
                      );
 
                 return(
-                    <button class="events" onClick={openevent} >
+                    <button class="events" onClick={openevent} value={'close'}>
                         {e.Title ? e.Title : 'Events Loading...'}
                     <div style={{display:'none'}} className="image">
                         {
@@ -227,6 +235,14 @@ const handledate=(e)=>{
                     <p className='eventmatter' style={{display:'none'}}>
                         {e.Event}
                     </p>
+
+                    <div class="up-event-des" id="up-event-des"  onClick={close}>
+        <div class="des-img" ><img id="des-img" src="" alt="" /></div>
+        <div class="event-des">
+            <p id="event-matter"></p>
+        </div>
+        <button id="close1" onClick={close}>&times;</button>
+    </div>
                 </button>
                 )
                 
@@ -246,15 +262,15 @@ const handledate=(e)=>{
 
 </div>
 
-{/* shows up events data */}
+{/* shows up events data// */}
 
-<div class="up-event-des" id="up-event-des">
+{/* <div class="up-event-des" id="up-event-des">
         <div class="des-img" ><img id="des-img" src="" alt="" /></div>
         <div class="event-des">
             <p id="event-matter"></p>
         </div>
         <button id="close1" onClick={close}>&times;</button>
-    </div>
+    </div> */}
 
 {/* about  */}
     <div class="about">
@@ -288,7 +304,7 @@ const handledate=(e)=>{
 </div>
     <div class="sugg-display" id="sugg-display">
         {
-            experiences?experiences.map(exp=>{
+            experiences.length!=0?experiences.map(exp=>{
                 
                 return(
                     <div className="exp">
@@ -300,7 +316,9 @@ const handledate=(e)=>{
                     </div>
                 )
 
-            }):<></>
+            }):<>
+           <iframe src="https://lottie.host/embed/b58152ea-eab2-4892-8ce3-01199f1fc6bb/ymttkXd6mu.lottie"></iframe>
+           </>
 }
 </div>
     <div id="exp-cont" style={{display:'none'}}>
