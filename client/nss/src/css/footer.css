@@ -1,0 +1,429 @@
+footer{ display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 3vw;
+    position: relative;
+}
+.foot{
+
+    position: relative;
+    box-sizing: border-box;
+    height: 23vw;
+    width: 100vw;
+    background-color: black;   
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vw;
+    width: 100vw;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.5vw;
+   
+}
+.addresscont{
+    position: relative;
+    border: none;
+    width: 25vw;
+    height: 20vw;
+    font-size: 1.2vw;
+    font-family:'Poppins', sans-serif ;
+}
+.addresscont pre{
+    font-size: 1vw;
+    font-family:'Poppins', sans-serif ;
+
+}
+.addresscont p{
+    font-size: 1vw;
+    position: absolute;
+    top: 0vw;
+    left: 6vw;
+    font-family:'Poppins', sans-serif ;
+}
+.quicklink-head{
+    font-size: 1vw;
+    position: absolute;
+    top: 0vw;
+    left: 37.5vw;
+    font-family:'Poppins', sans-serif ;
+   
+
+}
+
+.quicklink{
+    border: none;
+    font-size: 1vw;
+    width: 25vw;
+    height: 18vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family:'Poppins', sans-serif ;
+}
+.quicklink h2 {
+    position: relative;
+    left: 6vw;
+}
+.quicklink ul{
+
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif ;
+    left: 6vw;
+
+}
+.quicklink ul a{
+    color: #fff;
+    font-family:'Poppins', sans-serif ;
+    font-size: 1vw;
+    text-decoration: none;
+
+}
+.quicklink ul a :hover{
+    color: #f9a000;
+    background-color: transparent;
+}
+.quicklink ul button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    font-family:'Poppins', sans-serif ;
+    transition-duration: 0.2s;
+
+}
+li a:hover{
+    transition-duration: 0.2s;
+    color: #f9a000;
+}
+.location-head{
+    font-size: 1vw;
+    position: relative;
+    width: 25vw;
+    height: 18vw;
+    font-family: 'Poppins', sans-serif;
+    
+   h2{
+    left: 6vw;
+    position: relative;
+   }
+    
+}
+.majorobj{
+    background-color: aliceblue;   
+    border: none;
+    width: 22vw;
+    height: 15vw;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    left: 6vw;
+}
+.majorobj iframe{
+    width: 100%;
+    height: 100%;
+}
+.copyright{
+    font-size: 1vw;
+    color: white;
+    position: absolute;
+    top: 0vw;
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    left: -20vw;
+    top: 20vw;
+
+}
+
+.instalink {
+    font-size: 1vw;
+    height: 18vw;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family:'Poppins', sans-serif ;
+}
+.instalink h2{
+    position: relative;
+    left: 6vw;
+}
+
+.instalink a{
+    
+    position: relative;
+    color: white;
+    font-size: 1.1vw;
+    text-decoration: none;
+    width: fit-content;
+    font-family:'Poppins', sans-serif ;
+    left: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 10vw;
+
+}
+.instalink a:hover{
+    color: #f9a000;
+    transition-duration: 0.2s;
+}
+.instalink pre a i{
+    color: white;
+    font-size: 1.5vw;
+}
+
+
+@media screen and (max-width: 480px){
+
+    footer{
+        position: relative;
+    height: 120vh;
+    z-index: 2;
+    top: 35vw;
+    display: flex;
+    flex-direction: column;
+
+    }
+        .foot {
+            position: relative;
+    
+            top: 20vw;
+            height: 100%;
+    
+        }
+    
+        .content {
+            flex-direction: column;
+            align-content: space-around;
+            justify-items: baseline;
+            height: auto;
+            padding: 0px 0px;
+            margin-left: 0vw;
+
+        }
+    
+        .addresscont {
+            width: 95vw;
+            height: 55vw;
+            font-size: 3.2vw;
+        }
+    
+        /* .addresscont pre {
+            font-size: 2.4vw;
+        } */
+    
+        .addresscont p {
+            font-size: 3.2vw;
+            top: 0vw;
+            left:0vw;
+        }
+    
+        .location-head {
+            top: 0vw;
+            position: relative;
+            left: 0vw;
+            font-size: 4vw;
+        }
+    
+        .majorobj {
+            position: relative;
+            top: 0vw;
+            left: 0vw;
+            width: 95vw;
+            height: 55vw;
+        }
+        .majorobj iframe {
+            width: 95vw;
+            height: 55vw;
+        }
+        .quicklink-head {
+            font-size: 3.2vw;
+            margin: 3px 0;
+    top: 0vw;
+    left: 0vw;
+        }
+        .quicklink {
+            height: 45vw;
+       width: 95vw;
+       font-size: 3.2vw;
+        }
+        .quicklink h2{
+            left: 0;
+        }
+    
+      .quicklink  ul {
+        display: block;
+       top: 0vw;
+        left: 0vw;
+       
+        }
+        .quicklink ul button a{
+            font-size: 3.2vw;
+        }
+        .quicklink  ul a {
+            font-size: 3.2vw;
+        }
+    
+        .instalink {
+            position: relative;
+            top: 0vw;
+            left: 0vw;
+            width: 95vw;
+            height: 30vw;
+            font-size: 3.2vw;
+        }
+        .instalink pre{
+            position: relative;
+    color: white;
+    font-size: 5vw;
+    top: 0vw;
+    left: 0vw;
+        }
+    
+        .instalink a {
+            font-size: 3.5vw;
+            left: 0;
+            width: 100%;
+        }
+        .instalink h2{
+         left: 0vw;
+        }
+    
+        .location-head{
+            width: 95vw;
+            top: 0vw;
+            position: relative;
+            left: 0vw;
+            font-size: 4vw;
+            height: 60vw;
+        }
+        .location-head h2{
+           left:0;
+        }
+        .majorobj{
+            position: relative;
+    top: 0vw;
+    left: 0vw;
+    width: 60vw;
+    height: 40vw
+        }
+.copyright{
+    width: 100vw;
+    font-size: 3.2vw;
+    color: white;
+    position: relative;
+    top: 10vw;
+    left: 0vw;
+    height: 10vw;
+   
+}
+
+
+
+}
+
+@media screen and (min-width: 700px){
+    @media  screen and (max-width:1024px){
+        footer{
+            display: flex;
+            flex-direction: column;
+            top: 30vw;
+            height: 35vh;
+        }
+.foot{
+    height: auto;
+}
+.content{
+    height: 50vw;
+    align-items: normal;
+}
+.addresscont{
+    font-size: 2vw;
+    height: 100%;
+}
+.addresscont p{
+    font-size: 2vw;
+    left: 2vw;
+}
+.quicklink{
+    font-size: 2vw;
+    height: 30vw;
+}
+.quicklink h2{
+    position: relative;
+    left: 2vw;
+    top: 2vw;
+}
+.quicklink ul{
+    left: 2vw;
+}
+.quicklink ul button a{
+    font-size: 2vw;
+}
+.quicklink ul a{
+    font-size: 2vw;
+}
+
+.location-head{
+    font-size: 2vw;
+    height: 40vw;
+}
+.location-head h2{
+    top: 2vw;
+    left: 0vw;
+    position: relative;
+}
+.majorobj{
+    width: 30vw;
+    height: 30vw;
+    left: 0vw;
+}
+.instalink{
+    font-size: 2vw;
+}
+.instalink h2{
+    left: 6vw;
+    top: 2vw;
+}
+.instalink a{
+    font-size: 2.3vw;
+    width: fit-content;
+}
+
+
+.copyright {
+    font-size: 2.2vw;
+    color: white;
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+    width: fit-content;
+}
+.instalink pre{
+    position: relative;
+    top: -9vw;
+    left: 49vw;
+    font-size: 2vw;
+}
+}}
