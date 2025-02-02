@@ -24,14 +24,6 @@ const handlechange=()=>{
  }
 }
 
-// setInterval(()=>{
-//   document.getElementById("emailok").style.animation = "email 0.5s 0.5s 1 ease"
-// },2000)
-
-// setInterval(()=>{
-//    document.getElementById("emailok").style.animation = "none"
-   
-// },3000)
 
 
 const sendEmail = (e) => {
@@ -92,11 +84,10 @@ const sendEmail = (e) => {
        
             <div class="clgheading">
                 <p>NSS IIITDM KURNOOL</p>
-                 {/* <pre id="moto"></pre> */}
              </div>
         
         <div class="clgpic">
-        <iframe src="https://lottie.host/embed/5724a4b7-9f7c-4d0c-802c-d3ea560ae474/b9H8328XCG.lottie"></iframe>
+      <img src="contactstopimg.png" alt="" />
         </div>
     </div>
 
@@ -130,7 +121,6 @@ const sendEmail = (e) => {
    
     <input id="user-name" name="username" type="text" placeholder="Name" onChange={handlechange}/>
     <input id="user-batch" type="text" name="userbatch" placeholder="Batch (eg: ECE-2022)" onChange={handlechange}/>
-    {/* <input type="text" id="user-mail" name="usermail" placeholder="Your Valid Email Id"/> */}
     <textarea id="msg-matter" name="message" placeholder="Write your queries."></textarea>
     <button id="share" type="submit" >Send</button>
     <div id="emailok" class="emailok"> Query sent successfully! </div>

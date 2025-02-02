@@ -3,6 +3,8 @@ import '../css/events.css'
 import '../css/medevents.css'
 import Header from './Header'
 import Footer from './Footer'
+import Loading from './loading'
+import Loading1 from './loading1'
 import { useEffect, useState } from 'react'
 
 const Events = () => {
@@ -29,11 +31,10 @@ const Events = () => {
             <p>NSS IIITDM KURNOOL</p>
              {/* <!-- <pre id="moto"></pre> --> */}
          </div>
-        <div class="clgpic"><iframe  src="https://lottie.host/embed/21e7f95b-a047-44a5-9a89-83e01ddf9d29/kSrraL5JJR.lottie"></iframe>
+        <div class="clgpic"><img src="eventstopimg.png" alt="" />
         </div>
     </div>
 
-    {/* <button id="options" value="close"><i class="fa fa-server" aria-hidden="true"></i></button> */}
 
     <div class="events_cont" id="events_cont">
        {
@@ -60,7 +61,8 @@ const Events = () => {
 
         }):<>
         <div className="loading">
-        <iframe src="https://lottie.host/embed/b974f401-8ef5-4dac-ac0f-5b741600048b/1BE5wLsND7.lottie"></iframe>
+        {/* <iframe src="https://lottie.host/embed/b974f401-8ef5-4dac-ac0f-5b741600048b/1BE5wLsND7.lottie"></iframe> */}
+        <Loading1/>
         </div>
         </>
        }

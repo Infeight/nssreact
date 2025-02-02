@@ -18,7 +18,6 @@ body::-webkit-scrollbar{
     height: 5.5vw;
     border: none;
     outline: none;
-    /* background-color: #31398a; */
     position: fixed;
     left: 0vw;
     top: 0vw;

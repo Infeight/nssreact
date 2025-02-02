@@ -110,7 +110,7 @@ const Members = () => {
              {/* <pre id="moto"></pre> */}
          </div>
         <div class="clgpic">
-        <iframe src="https://lottie.host/embed/2d52f598-b26f-4bd3-ad8a-540324926bb8/o16BSkSf9c.lottie"></iframe>
+       <img src="memberstopimg.png" alt="" />
         </div>
     </div>
 
@@ -153,9 +153,7 @@ const Members = () => {
        <button onClick={batch22}>TEAM 22-23</button>
        <button onClick={batch21}>TEAM 21-22</button>
 
-    {/* <a href="#batch23">TEAM 23-24</a>
-    <a href="#batch22" onClick={batch22}>TEAM 22-23</a>
-   <a href="./members(21-22).html" onClick={batch21}>TEAM 21-22</a> */}
+
    </div>
 
 <Footer/>

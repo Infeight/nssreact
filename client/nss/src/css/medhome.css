@@ -149,7 +149,6 @@
         color: #ff9d00;
         text-align: center;
         text-transform: uppercase;
-        /* text-decoration: underline; */
     }
     #gotoeve {
         width: 35vw;
@@ -164,7 +163,6 @@
         font-size: 3.5vw;
         height: 5.5vw;
         width: 5.5vw;
-        /* top: 25vw; */
     }
     .nav-next-prev svg{
         font-size: 4.5vw;
@@ -173,13 +171,11 @@
         opacity: 0;
         z-index: 2;
         position: absolute;
-        /* margin-top: auto; */
+        
         left: 91vw;
         top: 25vw;
-        /* width: 3.5vw;
-        height: 3.5vw; */
+
         border-radius: 10px;
-        /* font-size: 2.5vw; */
         outline: none;
         border: none;
         padding: 1px 0px;
@@ -187,11 +183,10 @@
     #nav-prev_sneak {
         opacity: 0;
         position: absolute;
-        /* margin-top: auto; */
+       
         left: 1.5vw;
         top: 25vw;
-        /* width: 3.5vw;
-        height: 3.5vw; */
+      
         border-radius: 10px;
         padding: 1px 0px;
         outline: none;
@@ -247,7 +242,7 @@
         z-index: 4;
         font-size: 1vw;
         font-family: 'Poppins', sans-serif;
-        /* box-shadow: 0.8px 0.7px 6.7px hsl(0deg 0% 0% / 0.44); */
+       
     }
     .upeveloading {
         width: 100%;
@@ -469,25 +464,21 @@
    }
     #nav-next {
         position: relative;
-        /* margin-top: auto; */
+       
         left: 71.5vw;
-        /* top: 23vw; */
         width: 7.5vw;
         height: 7.5vw;
         border-radius: 10px;
-        /* font-size: 2.3vw; */
         outline: none;
         border: none;
     }
     #nav-prev {
         position: relative;
-        /* margin-top: auto; */
          left:-3.5vw;
         /* top: 23vw; */
         width: 7.5vw;
         height: 7.5vw;
         border-radius: 10px;
-        /* font-size: 2.2vw; */
         outline: none;
         border: none;
         z-index: 3;

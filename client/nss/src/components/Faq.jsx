@@ -25,7 +25,7 @@ const Faq = () => {
              </div>
         
         <div class="clgpic">
-        <iframe src="https://lottie.host/embed/438c4c6b-58b6-4c67-b4df-d1cc5831b326/FoYs36BM5C.lottie"></iframe>
+     <img src="faqtopimg.png" alt="" />
         </div>
     </div>
 

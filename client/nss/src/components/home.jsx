@@ -3,7 +3,8 @@ import '../css/home.css'
 import '../css/medhome.css'
 import Header from './Header'
 import Footer from './Footer'
-
+import Loading from './loading'
+import Loading1 from './loading1'
 import Testimonials from './testimonials'
 import { useEffect,useState } from 'react'
 import { MdNavigateNext } from "react-icons/md";
@@ -17,9 +18,9 @@ const Home = () => {
     const [experiences,setExperiences] = useState([])
 
     useEffect(()=>{
-        upeve();
-        sneakpeaks();
-        exps();
+        // upeve();
+        // sneakpeaks();
+        // exps();
     },[])
 
     const sneakpeaks = async()=>{
@@ -184,7 +185,7 @@ const handledate=(e)=>{
     <div class="piccont-upeve">
    <div class="pic_container">
       
-           <div class="sneak-peak-layer">Sneak peaks</div>
+           <div class="sneak-peak-layer"><h4>Sneak peaks</h4></div>
         
             {
                 sneaks.length!=0?
@@ -195,15 +196,14 @@ const handledate=(e)=>{
                 
                 :
             
-                <iframe src="https://lottie.host/embed/526cee35-8bfc-4c6c-8ffe-7221dfd3aa25/VPafcAyK01.lottie"></iframe>
+                
+                <Loading1/>
             }
       
-             {/* <img className="sneak-peak" id="sneakimg"
-             src= {sneaks.length!=0?`data:image/png;base64,${sneaks[Math.floor(Math.random()* sneaks.length-1)]}`:'imagesloading.avif'}
-             alt="College front gate"/> */}
+            
          
              
-       <button id="gotoeve" > Go To Events</button>   
+       {/* <button id="gotoeve" > Go To Events</button>    */}
        <button onClick={nextslide_sneak} id="nav-next_sneak"  class="nav-next-prev"><MdNavigateNext /></button>
        <button onClick={prevslide_sneak} id="nav-prev_sneak"  class="nav-next-prev"><GrFormPrevious /> </button>
    </div>
@@ -249,7 +249,8 @@ const handledate=(e)=>{
              }): <>
              
              <div className='upeveloading'>
-             <iframe style={{width:"100%", height:'100%', border:"none"}} src="https://lottie.host/embed/586498bc-1432-4052-a1b0-d657d0ba6bef/iczqkOtjBu.lottie"></iframe>
+            
+             <Loading1/>
              </div>
 
              </>
@@ -262,15 +263,8 @@ const handledate=(e)=>{
 
 </div>
 
-{/* shows up events data// */}
 
-{/* <div class="up-event-des" id="up-event-des">
-        <div class="des-img" ><img id="des-img" src="" alt="" /></div>
-        <div class="event-des">
-            <p id="event-matter"></p>
-        </div>
-        <button id="close1" onClick={close}>&times;</button>
-    </div> */}
+
 
 {/* about  */}
     <div class="about">
