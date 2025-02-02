@@ -177,7 +177,7 @@ const handledate=(e)=>{
             <img id="headlogo2" class="head-logo" src="iiitdmklogo.png" alt=""/>
         </div>
         <div class="clgpic" id='clgpic'>
-            <img loading='lazy' src="homeing.jpg" alt="" />
+            <img loading='lazy' src="homeing.avif" alt="" />
         </div>
     </div>
 
