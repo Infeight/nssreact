@@ -31,3 +31,21 @@
     }
 }
 
+
+@media screen and (max-width: 480px){
+.loadinganimation{
+    width: 15vw;
+    height: 20vw;
+}
+}
+
+
+@media screen and (min-width: 700px){
+    @media  screen and (max-width:1024px) {
+        .loadinganimation{
+            width: 12vw;
+            height: 14vw;
+        
+        }
+    }}
+

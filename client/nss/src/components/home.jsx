@@ -18,9 +18,9 @@ const Home = () => {
     const [experiences,setExperiences] = useState([])
 
     useEffect(()=>{
-        // upeve();
-        // sneakpeaks();
-        // exps();
+        upeve();
+        sneakpeaks();
+        exps();
     },[])
 
     const sneakpeaks = async()=>{

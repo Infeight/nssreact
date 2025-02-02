@@ -61,7 +61,7 @@ const Events = () => {
 
         }):<>
         <div className="loading">
-        {/* <iframe src="https://lottie.host/embed/b974f401-8ef5-4dac-ac0f-5b741600048b/1BE5wLsND7.lottie"></iframe> */}
+        
         <Loading1/>
         </div>
         </>
