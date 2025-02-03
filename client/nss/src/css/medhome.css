@@ -30,7 +30,7 @@
         height: 50vw;
         position: relative;
         top: 0vw;
-        background-color: aquamarine;
+        /* background-color:; */
     }
     .clgnamelayer{
         height: 50vw;
@@ -203,6 +203,7 @@
         background-color: #fff;
         border-radius: 5px;
         overflow-y: scroll;
+        min-height: 60vw;
         box-shadow: 0.8px 0.7px 6.7px hsl(0deg 0% 0% / 0.44);
     }
  
