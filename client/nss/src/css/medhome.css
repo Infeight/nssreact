@@ -33,7 +33,7 @@
         /* background-color:; */
     }
     .clgnamelayer{
-        height: 50vw;
+        height: 90vw;
     }
     .clgpic img{height: 50vw;}
     .clgheading{
@@ -52,6 +52,12 @@
         color: #fff;
     }
 
+    #clgpic img{
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
     #homeclgheading{
         width: 70%;
         color: #fffbee;

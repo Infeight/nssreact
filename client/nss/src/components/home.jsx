@@ -3,8 +3,8 @@ import '../css/home.css'
 import '../css/medhome.css'
 import Header from './Header'
 import Footer from './Footer'
-import Loading from './loading'
-import Loading1 from './loading1'
+
+import Load from './load'
 import Testimonials from './testimonials'
 import { useEffect,useState } from 'react'
 import { MdNavigateNext } from "react-icons/md";
@@ -18,8 +18,8 @@ const Home = () => {
     const [experiences,setExperiences] = useState([])
 
     useEffect(()=>{
-        upeve();
-        sneakpeaks();
+        // upeve();
+        // sneakpeaks();
         exps();
     },[])
 
@@ -169,15 +169,17 @@ const handledate=(e)=>{
 {/* college pic and logos */}
 
     <div class="clgname">
-        <div class="clgnamelayer"></div>
+        <div class="clgnamelayer">
+        
+        </div>
         <div class="clgheading" id='clgheading'>
-            <img id="headlogo1" class="head-logo" src="nss image log.png" alt=""/>
+            <img id="headlogo1" class="head-logo" src="nss image log.avif" alt=""/>
            <p id='homeclgheading'>NSS IIITDM <br /> KURNOOL</p>
             <pre id="moto">NOT ME BUT YOU</pre>
-            <img id="headlogo2" class="head-logo" src="iiitdmklogo.png" alt=""/>
+            <img id="headlogo2" class="head-logo" src="iiitdmklogo.avif" alt=""/>
         </div>
         <div class="clgpic" id='clgpic'>
-            {/* <img loading='lazy' src="homeing.jpg" alt="" /> */}
+            <img loading='lazy' src="homeing.avif" alt="" />
         </div>
     </div>
 
@@ -197,7 +199,7 @@ const handledate=(e)=>{
                 :
             
                 
-                <Loading1/>
+                <Load/>
             }
       
             
@@ -250,7 +252,7 @@ const handledate=(e)=>{
              
              <div className='upeveloading'>
             
-             <Loading1/>
+             <Load/>
              </div>
 
              </>
@@ -269,7 +271,7 @@ const handledate=(e)=>{
 {/* about  */}
     <div class="about">
         <div class="aboutlayer"></div>
-        <div class="backimg"><img src="aboutimg.png" alt=""/></div>
+        <div class="backimg"><img src="aboutimg.avif" alt=""/></div>
         <div class="abouthead">
             Who We Are and What We Do?
         </div>
@@ -322,6 +324,7 @@ const handledate=(e)=>{
     <button id="share" style={{display:'block'}} onClick={shareexp}>Share</button>
 </div>
  </div>
+
 
 {/* footer */}
 <Footer/>

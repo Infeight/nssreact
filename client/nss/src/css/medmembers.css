@@ -39,7 +39,13 @@
         left: 0;
     }
     .clgpic img{
-        height: 50vw;
+        width: 85%;
+        height: 85%;
+        border: none;
+        z-index: -1;
+        position: relative;
+        top: 15%;
+        left: 10%;
     }
     .clgheading{
         font-size: 3vw;
@@ -78,7 +84,9 @@
         font-size: 8vw;
         font-family: "Kanit", sans-serif;
         font-weight: 700;
-         color: #fff;
+        color: #fff;
+        backdrop-filter: blur(3px);
+        background-color: #0000001f;
     }
     #options {
         background-color: transparent;

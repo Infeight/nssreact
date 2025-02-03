@@ -3,8 +3,8 @@ import '../css/events.css'
 import '../css/medevents.css'
 import Header from './Header'
 import Footer from './Footer'
-import Loading from './loading'
-import Loading1 from './loading1'
+
+import Load from './load'
 import { useEffect, useState } from 'react'
 
 const Events = () => {
@@ -31,7 +31,7 @@ const Events = () => {
             <p>NSS IIITDM KURNOOL</p>
              {/* <!-- <pre id="moto"></pre> --> */}
          </div>
-        <div class="clgpic"><img src="eventstopimg.png" alt="" />
+        <div class="clgpic"><img src="eventstopimg.avif" alt="" />
         </div>
     </div>
 
@@ -62,7 +62,7 @@ const Events = () => {
         }):<>
         <div className="loading">
         
-        <Loading1/>
+        <Load/>
         </div>
         </>
        }

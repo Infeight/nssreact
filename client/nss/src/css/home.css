@@ -38,10 +38,13 @@ body::-webkit-scrollbar{
     width: 100vw;
     height: 50vw;
     position: absolute;
-    background: linear-gradient(180deg, #f9a000, #fff);
+    background: linear-gradient(180deg, black, #fff);
     background-color:  rgb(0 0 0);
     opacity: 45%;
+  
+    
 }
+
 .clgheading{
     font-size: 3vw;
     position: absolute;
@@ -65,15 +68,19 @@ body::-webkit-scrollbar{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+   
 }
+
 #homeclgheading{
     left: 0;
     width: 40%;
     color: #f4f4f4;
+    /* animation: clghead 15s  ease infinite ; */
 }
 
 
 #moto{
+    font-size: 2vw;
     overflow: hidden;
     width: 35%;
     position: absolute;
@@ -82,15 +89,15 @@ body::-webkit-scrollbar{
     font-family: monospace;
     color: #f9a000;
      font-weight: 600;
-    border-right: 0.15em solid orange;
-    animation: 
+    /* border-right: 0.15em solid orange; */
+    /* animation: 
     typing 16s steps(40, end) infinite,
-    blink-caret 0.85s step-end infinite;
+    blink-caret 0.85s step-end infinite; */
   display: block;
 }
 #moto:hover{
     color: #f9a000;
-    font-size: 3.2vw;
+    font-size: 3vw;
     transition-duration: 0.2s;
 }
 @keyframes typing {
@@ -127,6 +134,12 @@ body::-webkit-scrollbar{
     top: 0vw;
     left: 0;
     width: 100%;
+}
+#clgpic img{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 .clgpic{
     position: absolute;
@@ -265,9 +278,10 @@ cursor: pointer;
     font-family: 'Poppins', sans-serif;
     color: #f9a000;
    text-transform: uppercase;
-    
+  
 
 }
+
 .sneak-peak-layer h4{
     margin: 2px;
     left: 1vw;
@@ -492,7 +506,8 @@ cursor: pointer;
     width: 98vw;
     height: 33vw;
     border-radius: 1vw;
-    background-color: #121855;
+    background-color: #121855d1;
+    /* 121855; */
     opacity: 85%;
     z-index: 1;
     

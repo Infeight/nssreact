@@ -25,8 +25,9 @@ body::-webkit-scrollbar{
     width: 100vw;
     height: 30vw;
     position: absolute;
+    background: linear-gradient(180deg, black, #fff);
     background-color:  rgb(0 0 0);
-    opacity: 10%;
+    opacity: 35%;
     z-index: 1;
 }
 .clgheading{
@@ -56,7 +57,8 @@ body::-webkit-scrollbar{
     font-family: "Kanit", sans-serif;
     font-weight: 600;
     /* font-style: italic;   */
-     color: #868686;
+     color: #fff;
+     /* #868686 */
     position: relative;
 }
 
@@ -64,7 +66,7 @@ body::-webkit-scrollbar{
     width: 50%;
     height: 100%;
     left: 50%;
-    
+    z-index: -1;
 }
  
 

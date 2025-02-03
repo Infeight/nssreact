@@ -4,13 +4,13 @@ footer{ display: flex;
     top: 3vw;
     position: relative;
 }
-.foot{
-
+.foot {
     position: relative;
     box-sizing: border-box;
-    height: 23vw;
+    height: 30vw;
     width: 100vw;
-    background-color: black;   
+   padding-top: 8vw;
+    background: linear-gradient(180deg, transparent, black);
 }
 .content{
     display: flex;
@@ -150,7 +150,7 @@ li a:hover{
     margin: auto;
     text-align: center;
     left: -20vw;
-    top: 20vw;
+    top: 28vw;
 
 }
 

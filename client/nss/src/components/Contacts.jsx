@@ -87,7 +87,7 @@ const sendEmail = (e) => {
              </div>
         
         <div class="clgpic">
-      <img src="contactstopimg.png" alt="" />
+      <img src="contactstopimg.avif" alt="" />
         </div>
     </div>
 
