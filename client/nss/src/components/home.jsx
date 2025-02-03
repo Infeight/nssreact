@@ -18,8 +18,8 @@ const Home = () => {
     const [experiences,setExperiences] = useState([])
 
     useEffect(()=>{
-        // upeve();
-        // sneakpeaks();
+        upeve();
+        sneakpeaks();
         exps();
     },[])
 
