@@ -637,14 +637,15 @@ cursor: pointer;
 }
 .testimony-img {
     position: relative;
-    box-shadow: 0 2px 4px black;
+    box-shadow: 0 0px 4px black;
     width: 14vw;
     height: 17vw;
-    border-radius: 0;
+    border-radius: 8px;
 }
 .testimony-img img{
     width: 100%;
     height: 100%;
+    border-radius: 8px;
 }
 .testimony-matter{
     position: relative;
@@ -672,12 +673,13 @@ cursor: pointer;
 .testimony-details{
     
     position: relative;
-    top:-1.5vw;
+    top:0.5vw;
     
-    left: -2.5vw;
+    left: 0vw;
     width: 15.5vw;
     height: 3vw;
-    box-shadow: 0 1px 3px black;
+    box-shadow: 0 0 0 black;
+    background-color: transparent;
     border-radius: 5px;
 }
 .testimony-details li{
@@ -699,7 +701,7 @@ cursor: pointer;
     justify-content: center;
     color: #f9a000;
     font-weight: 600;
-    background-color: #f4f4f4;
+    background-color: transparent;
 
 }
 #test-roll{
@@ -724,6 +726,9 @@ cursor: pointer;
     outline: none;
     border: none;
     z-index: 3;
+}
+.nav-next-prev svg{
+    font-size: 1vw;
 }
 .nav-next-prev:hover{
     background-color: #ffbf58;

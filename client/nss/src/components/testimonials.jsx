@@ -106,7 +106,7 @@ const nextslide=()=> {
         </div>
 
         <div class="test-slides" id="slide2">
-            <div class="testimony-img"><img src="'pandey.jpg" alt=""/></div>
+            <div class="testimony-img"><img src="pandey.jpg" alt=""/></div>
             <div class="testimony-details">
                 <li id="test-name">Aditya Pandey</li>
                  </div>

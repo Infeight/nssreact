@@ -25,14 +25,14 @@
         width: 100vw;
         height: 50vw;
         position: relative;
-        top: -10vw;
+        /* top: -10vw; */
         background-color: transparent;
     }
     .contacts-layer{
         height: 50vw;
     }
     .clgpic img{
-        height: 50vw;
+        height: 100%;
     }
     .clgheading{
         font-size: 3vw;
@@ -41,7 +41,7 @@
         top: 28vw;
         left: 0vw;
         width: 100%;
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
     }

@@ -25,7 +25,7 @@ const Faq = () => {
              </div>
         
         <div class="clgpic">
-     <img src="faqtopimg.avif" alt="" />
+     <img src="faq.png" alt="" />
         </div>
     </div>
 
